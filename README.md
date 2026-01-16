@@ -116,7 +116,7 @@ graph TB
 - `cstg_financialanalysisindividual` - Financial analysis
 - `cstg_issue` - Issue tracking
 
-### CSNG System Tables (Collection System Next Generation)
+### CSNG System Tables (Cross Servicing)
 - `xstg_araccount` - Account records
 - `xstg_arentity` - Entity information
 - `xstg_arawg` - Administrative Wage Garnishment
@@ -196,17 +196,6 @@ flowchart TD
 
 6. **Schema Usage**: Grant schema usage to all groups
 
-## Version History
-
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| v17 | 12/03/2021 | Rosa Chan | Changed `tstg_partial_match.top_name_control_val` to ACL column |
-| v16 | 10/26/2021 | Rosa Chan | Removed 20 obsolete xstg tables |
-| v15 | 09/16/2021 | Rosa Chan | Added CRS 2021 Oct Release - Program.ProgramEIN |
-| v14 | 07/13/2021 | Rosa Chan | Added CRS 2021 July Release - 6 new columns + IssueResolution |
-| v13 | 07/11/2021 | Rosa Chan | Added 180 ACL columns for CSNG de-identification |
-| v1-v12 | 2020-2021 | Rosa Chan | Initial development and incremental updates |
-
 ## Maintenance Requirements
 
 ### When to Run This Script
@@ -243,12 +232,6 @@ flowchart TD
 
 ## Compliance Considerations
 
-### Data Privacy Regulations
-- **GDPR**: Restricts access to EU citizen PII
-- **CCPA**: California Consumer Privacy Act compliance
-- **FCRA**: Fair Credit Reporting Act requirements
-- **GLBA**: Gramm-Leach-Bliley Act for financial data
-
 ### PII Protection
 - SSN/TIN data encrypted and access-restricted
 - Financial account information protected
@@ -282,12 +265,12 @@ flowchart TD
 
 **Script Owner**: Jorge Reyes (DAAB.BSSD@fiscal.treasury.gov)  
 **Created**: 05/19/2020  
-**Last Updated**: 12/03/2021 (v17)
+**Last Updated**: 
 
 ## File Information
 
-- **Filename**: `DWPermissionswithACL_12032021_v17.sql`
-- **Location**: `C:\Temp\Redshift\ACL\`
+- **Filename**: `DWPermissionswithACL_12032021_v##.sql`
+- **Location**: `Bsation Host`
 - **Size**: ~200KB
 - **Tables Affected**: 60+ tables with ACL protection
 - **PII Columns Protected**: 500+ columns across all systems
