@@ -270,7 +270,7 @@ flowchart TD
 ## File Information
 
 - **Filename**: `DWPermissionswithACL_12032021_v##.sql`
-- **Location**: `Bsation Host`
+- **Location**: `Bastion Host`
 - **Size**: ~200KB
 - **Tables Affected**: 60+ tables with ACL protection
 - **PII Columns Protected**: 500+ columns across all systems
