@@ -104,7 +104,7 @@ graph TB
 - `tstg_creditor_agency` - Creditor agency data
 - `tstg_top_user` - TOP user information
 
-### CRS System Tables (Cross-Servicing)
+### CRS System Tables (Centralized Receivables Service)
 - `cstg_debtor` - Debtor master
 - `cstg_address` - Address information
 - `cstg_phone` - Phone numbers
